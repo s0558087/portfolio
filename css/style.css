@@ -17,6 +17,11 @@ body {
   height: 1200px;
 }
 
+@media only screen and (max-width:376px) {
+      .selektor {
+        height: 667px;
+}
+
 .pfeil {
   position: fixed;
   left: 48%;
