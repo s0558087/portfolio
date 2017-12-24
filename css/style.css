@@ -224,24 +224,24 @@ a:hover {
 
 /* hamburgermenu changing color when scrolling */
 .scrolled-nav .bar1 {
-  background-color: rgba(52, 74, 84, 1);
+  background-color: rgba(61, 65, 73, 1);
 }
 
 .scrolled-nav .bar2 {
-  background-color: rgba(52, 74, 84, 1);
+  background-color: rgba(61, 65, 73, 1);
 }
 
 .scrolled-nav .bar3 {
-  background-color: rgba(52, 74, 84, 1);
+  background-color: rgba(61, 65, 73, 1);
 }
 
 .scrolled-main-nav a {
-  color: rgba(52, 74, 84, 1);
+  color: rgba(61, 65, 73, 1);
   font-weight: 400;
 }
 
 .scrolled-main-nav a:hover {
-  color: rgba(52, 74, 84, 0.6);
+  color: rgba(61, 65, 73, 0.7);
 }
 
 .scrolled h5 {
