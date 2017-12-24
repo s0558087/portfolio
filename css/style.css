@@ -20,19 +20,19 @@ body {
 .pfeil {
   position: fixed;
   left: 48%;
-  top: 80%;
+  top: 80vh;
   z-index: 1;
 }
 
 @media only screen and (max-width:1367px) {
       .pfeil {
-        top: 85%;
+        top: 80vh;
       }
 }
 
 @media only screen and (max-width:376px) {
       .pfeil {
-        top: 85%;
+        top: 85vh;
         left: 46%;
         height: 13px;
         width: 28px;
