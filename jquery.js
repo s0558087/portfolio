@@ -34,23 +34,23 @@ $(document).ready(function(){
      $('.counter').html(scrollTop);
 
     // nav changing color by scrolling
-    if (scrollTop >= 1150) {
+    if (scrollTop >= 600) {
       $('.nav').addClass('scrolled-nav');
-    } else if (scrollTop < 1150) {
+    } else if (scrollTop < 600) {
       $('.nav').removeClass('scrolled-nav');
     }
 
     // main-naiv changing color by scrolling
-    if (scrollTop >= 1150) {
+    if (scrollTop >= 600) {
       $('.main-nav').addClass('scrolled-main-nav');
-    } else if (scrollTop < 1150) {
+    } else if (scrollTop < 600) {
       $('.main-nav').removeClass('scrolled-main-nav');
     }
 
     // logo changing color by scrolling
-    if (scrollTop >= 1150) {
+    if (scrollTop >= 600) {
       $('.logo').addClass('scrolled h5');
-    } else if (scrollTop < 1150) {
+    } else if (scrollTop < 600) {
       $('.logo').removeClass('scrolled h5');
     }
 

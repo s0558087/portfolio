@@ -14,12 +14,7 @@ body {
   background-size: cover;
   position: relative;
   background-position: center;
-  height: 1200px;
-}
-
-@media only screen and (max-width:376px) {
-      .selektor {
-        height: 667px;
+  height: 100vh;
 }
 
 .pfeil {
