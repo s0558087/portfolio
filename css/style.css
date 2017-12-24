@@ -252,8 +252,8 @@ a:hover {
 
 /* headlines, paragraphen */
 h1 {
-  color: rgba(52, 74, 84, 1);
-  font-family: 'Yantramanav', sans-serif;
+  color: rgba(61, 65, 73, 1);
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 140px;
   line-height: 100px;
@@ -271,10 +271,10 @@ h1 {
 
 @media only screen and (max-width:376px) {
       h1 {
-        font-size: 100px;
-        line-height: 80px;
+        font-size: 22px;
+        line-height: 28px;
         padding-right: 20px;
-        text-align: left;
+        text-align: center;
       }
 }
 
@@ -334,10 +334,10 @@ hr {
 }
 
 p {
-  color: rgba(0, 0, 0, 0.7);
-  font-family: 'Ubuntu';
+  color: rgba(61, 65, 73, 1);
+  font-family: 'Montserrat';
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
   margin-bottom: 0;
   margin-top: 24px;
@@ -357,6 +357,7 @@ p {
         padding-right: 20px;
         padding-left: 20px;
         font-size: 16px;
+        line-height: 20px;
       }
 }
 
