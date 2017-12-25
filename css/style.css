@@ -15,6 +15,7 @@ body {
   position: relative;
   background-position: center;
   height: 100vh;
+  width: auto;
 }
 
 .pfeil {
