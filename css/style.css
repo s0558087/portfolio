@@ -454,7 +454,7 @@ h5 {
 
 #col1 {
   border-right: 2.5px solid;
-  border-color: rgba(232, 112, 94, 1);
+  border-color: rgba(232, 112, 94, 0.5);
   height: 400px;
   margin-right: 100px;
 }
