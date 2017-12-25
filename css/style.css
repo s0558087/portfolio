@@ -436,7 +436,6 @@ h5 {
 
 @media only screen and (max-width:1367px) {
       .bordersolid {
-
         margin-left: 47%;
         position: relative;
       }
@@ -487,6 +486,13 @@ h5 {
   background-color: white;
 }
 
+@media only screen and (max-width:1367px) {
+      .flex-grid {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+}
+
 @media only screen and (max-width:376px) {
       .flex-grid {
         margin-left: 10%;
@@ -494,33 +500,26 @@ h5 {
       }
 }
 
-.flex-grid-item-left {
+.flex-grid-item {
 	width: 100%;
   height: 100%;
 	flex-grow: 1;
 	flex-shrink: 0;
 	flex-basis: 33.3333%;
-	flex-basis: 400px;
+	flex-basis: 300px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  margin-left: 5%;
   position: relative;
 }
 
-
-.flex-grid-item-right {
-	width: 100%;
-  height: 100%;
-	flex-grow: 1;
-	flex-shrink: 0;
-	flex-basis: 33.3333%;
-	flex-basis: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  margin-right: 5%;
+@media only screen and (max-width:1367px) {
+      .flex-grid-item {
+        flex-basis: 350px;
+      }
 }
+
+
 
 .blank {
 	height: 0;
@@ -539,21 +538,6 @@ h5 {
 /* work grid headlines END*/
 
 
-/*image hover*/
-.flex-grid-item-left:hover {
-  margin-left: 0;
-  margin-right: 5%;
-  transition: .4s ease;
-}
-
-.flex-grid-item-right:hover {
-  margin-left: 5%;
-  margin-right: 0;
-  transition: .4s ease;
-}
-/*image hover END*/
-
-
 /* contact */
 .Index-page-contact {
   position: relative;
@@ -569,9 +553,6 @@ h5 {
 }
 
 
-
-
-
 /* icon hover */
 .instagram {
   margin-left: 30%;
@@ -583,28 +564,3 @@ h5 {
   cursor: pointer;
 }
 /*Icon Hover END*/
-
-
-
-
-
-
-.flex-grid-item {
-	width: 100%;
-  height: 100%;
-	flex-grow: 1;
-	flex-shrink: 0;
-	flex-basis: 33.3333%;
-	flex-basis: 300px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  position: relative;
-}
-
-
-@media only screen and (max-width:1367px) {
-      .flex-grid-item {
-        flex-basis: 250px;
-      }
-}
