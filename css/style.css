@@ -53,7 +53,7 @@ body {
         left: 46%;
         height: 13px;
         width: 28px;
-        position: scroll;
+        position: relative;
       }
 }
 
