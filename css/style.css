@@ -11,6 +11,9 @@ body {
 .selektor {
   background-image: url(../images/forest2.jpg);
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center top;
   height: 100vh;
@@ -27,6 +30,7 @@ body {
 @media only screen and (max-width:376px) {
       .selektor {
         height: 667px;
+        background-attachment: scroll;
       }
 }
 
@@ -49,6 +53,7 @@ body {
         left: 46%;
         height: 13px;
         width: 28px;
+        position: scroll;
       }
 }
 
@@ -454,7 +459,7 @@ h5 {
 
 #col1 {
   border-right: 2.5px solid;
-  border-color: rgba(232, 112, 94, 0.5);
+  border-color: rgba(232, 112, 94, 1);
   height: 400px;
   margin-right: 100px;
 }
