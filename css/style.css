@@ -489,6 +489,7 @@ h5 {
       .flex-grid {
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 20px;
       }
 }
 
@@ -551,7 +552,6 @@ h5 {
 /* work grid zoom hover END*/
 
 
-
 /* contact */
 .Index-page-contact {
   position: relative;
@@ -570,7 +570,13 @@ h5 {
 /* icon hover */
 .instagram {
   margin-left: 30%;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width:376px) {
+      .instagram {
+        margin-left: 0;
+      }
 }
 
 .instagram:hover {
@@ -578,3 +584,30 @@ h5 {
   cursor: pointer;
 }
 /*Icon Hover END*/
+
+
+.sendmail {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  background: transparent;
+  margin-top: 50px;
+  padding: 10px;
+  left: 50%;
+  margin-left: -125px;
+  border-color: rgba(61, 65, 73, 1);
+  border-width: 2.4px;
+  border-style: solid;
+}
+
+.sendmail p {
+  margin: 0;
+}
+
+@media only screen and (max-width:376px) {
+      .sendmail {
+        width: 200px;
+        text-align: center;
+        height: 30px;
+      }
+}
