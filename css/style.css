@@ -49,7 +49,7 @@ body {
 
 @media only screen and (max-width:376px) {
       .pfeil {
-        top: 70vh;
+        top: 75vh;
         left: 46%;
         height: 13px;
         width: 28px;
@@ -275,15 +275,15 @@ h1 {
   font-weight: bold;
   font-size: 140px;
   line-height: 100px;
-  text-align: right;
-  padding-right: 50px;
+  text-align: center;
+  margin: 0;
 }
 
 @media only screen and (max-width:1367px) {
       h1 {
         font-size: 27px;
         line-height: 34px;
-        text-align: center;
+        margin-bottom: 30px;
       }
 }
 
@@ -291,8 +291,9 @@ h1 {
       h1 {
         font-size: 22px;
         line-height: 28px;
+        float: left;
         padding-right: 20px;
-        text-align: center;
+        padding-left: 20px;
       }
 }
 
@@ -347,7 +348,7 @@ hr {
   border: 5px solid white;
   width: 30px;
   margin-left: 32px;
-  margin-top: 30px;
+  margin-bottom: 30px;
   position: absolute;
 }
 
@@ -356,17 +357,16 @@ p {
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 500;
-  text-align: left;
-  margin-bottom: 0;
-  margin-top: 24px;
-  padding-left: 30px;
-  padding-right: 200px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 @media only screen and (max-width:1367px) {
       p {
-        font-size: 15px;
-        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0;
+        margin-bottom: 15px;
       }
 }
 
@@ -377,6 +377,7 @@ p {
         font-size: 16px;
         line-height: 20px;
         text-align: left;
+        float: left;
       }
 }
 
@@ -408,7 +409,7 @@ h5 {
 
 .Index-page-content {
   box-sizing: border-box;
-  padding: 120px 100px;
+  padding: 120px 320px;
 }
 
 @media only screen and (max-width:1367px) {
@@ -423,33 +424,7 @@ h5 {
       }
 }
 
-.h-left {
-  margin-bottom: 100px;
-}
 
-
-
-@media only screen and (max-width:376px) {
-      .h-left {
-        float: left;
-        margin-left: 20px;
-        margin-bottom: 0;
-      }
-}
-
-.p-right {
-  float: right;
-}
-
-
-
-@media only screen and (max-width:376px) {
-      .p-right {
-        width: auto;
-        margin-bottom: 40px;
-        text-align: left;
-      }
-}
 
 /* section hi,there. END*/
 
