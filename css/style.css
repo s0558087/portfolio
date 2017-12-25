@@ -12,13 +12,14 @@ body {
   background-image: url(../images/forest2.jpg);
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
   background-position: center top;
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
 }
 
+
+/* Cross browser solution for fixed full background image (incl. iOS) */
 body {
   position: relative;
 }
