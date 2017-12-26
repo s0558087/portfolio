@@ -36,7 +36,7 @@ body {
 
 .pfeil {
   position: fixed;
-  left: 48%;
+  left: calc(50% - 20px);
   top: 80vh;
   z-index: 1;
 }
@@ -50,20 +50,21 @@ body {
 @media only screen and (max-width:375px) {
       .pfeil {
         top: 75vh;
-        left: 46%;
+        left: calc(50% - 14px);
         height: 13px;
         width: 28px;
         position: relative;
       }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (min-width:376px) and (max-width:414px) {
       .pfeil {
         top: 75vh;
-        left: 46%;
+        left: calc(50% - 14px);
         height: 13px;
         width: 28px;
         position: relative;
+        position: fixed;
       }
 }
 
@@ -72,6 +73,12 @@ body {
 }
 
 @media only screen and (max-width:375px) {
+      .pfeil:hover {
+        opacity: 1;
+      }
+}
+
+@media only screen and (min-width:376px) and (max-width:414px) {
       .pfeil:hover {
         opacity: 1;
       }
@@ -333,7 +340,6 @@ a:hover {
 
 .scrolled-main-nav a {
   color: rgba(61, 65, 73, 1);
-  font-weight: 400;
 }
 
 .scrolled-main-nav a:hover {
@@ -742,13 +748,26 @@ h5 {
 
 /* icon hover */
 .instagram {
-  margin-left: 30%;
+  position: relative;
+  margin-left: calc(50% - 20px);
   margin-top: 50px;
+}
+
+@media only screen and (max-width:1366px) {
+      .instagram {
+        margin-top: 50px;
+      }
 }
 
 @media only screen and (max-width:375px) {
       .instagram {
-        margin-left: 0;
+        margin-top: 200px;
+      }
+}
+
+@media only screen and (min-width:376px) and (max-width:414px) {
+      .instagram {
+        margin-top: 200px;
       }
 }
 
