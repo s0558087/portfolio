@@ -21,6 +21,19 @@ body {
   background-repeat: no-repeat;
 }
 
+.selektorunterseiten {
+  background-image: url(../images/a_app.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center top;
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
 
 /* Cross browser solution for fixed full background image (incl. iOS) */
 body {
@@ -97,7 +110,7 @@ body {
 
 @media only screen and (max-width:375px) {
       .header {
-        padding: 30px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
       }
 }
 
