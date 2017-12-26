@@ -693,7 +693,7 @@ h5 {
 }
 
 @media only screen and (max-width:1367px) {
-      .headline:hover h2 {
+      .headline h2 {
         font-weight: 600;
         font-size: 20px;
         line-height: 25px;
@@ -711,9 +711,15 @@ h5 {
   opacity: 1;
 }
 
-@media only screen and (max-width:1367px) {
+@media only screen and (max-width:1366px) {
       .headline:hover h2 {
         padding-top: 36%;
+      }
+}
+
+@media only screen and (max-width:376px) {
+      .headline:hover h2 {
+        padding-top: 35.8%;
       }
 }
 /* work grid zoom hover END*/
