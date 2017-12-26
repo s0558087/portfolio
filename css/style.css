@@ -29,11 +29,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center top;
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
 }
-
 
 /* Cross browser solution for fixed full background image (incl. iOS) */
 body {
@@ -42,6 +41,13 @@ body {
 
 @media only screen and (max-width:375px) {
       .selektor {
+        height: 100vh;
+        background-attachment: scroll;
+      }
+}
+
+@media only screen and (max-width:375px) {
+      .selektorunterseiten {
         height: 100vh;
         background-attachment: scroll;
       }
@@ -478,6 +484,18 @@ h5 {
 @media only screen and (min-width:376px) and (max-width:414px) {
       h5 {
         font-size: 0;
+      }
+}
+
+@media only screen and (max-width:375px) {
+      .back-button h5 {
+        font-size: 18px;
+      }
+}
+
+@media only screen and (min-width:376px) and (max-width:414px) {
+      .back-button h5 {
+        font-size: 18px;
       }
 }
 /* headlines, paragraphen END*/
