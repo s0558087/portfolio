@@ -27,7 +27,7 @@ body {
 
 @media only screen and (max-width:375px) {
       .selektor {
-        height: 100vh;
+        height: 19vh;
         background-attachment: scroll;
       }
 }
@@ -37,7 +37,9 @@ body {
         background-attachment: scroll;
       }
 }
+/* start - project bild END*/
 
+/* REMOVE */
 .pfeil {
   position: fixed;
   left: calc(50% - 20px);
@@ -87,7 +89,7 @@ body {
         opacity: 1;
       }
 }
-/* intro END*/
+/* REMOVE END*/
 
 
 /* hamburgermenu */
@@ -109,10 +111,6 @@ body {
       .header {
         padding: 40px 10px 5px 10px;
       }
-}
-
-.logo {
-  float: left;
 }
 
 .navbar {
@@ -148,7 +146,6 @@ body {
         margin-right: 50px;
       }
 }
-
 
 .nav {
   display: block;
@@ -349,10 +346,6 @@ a:hover {
 .scrolled-main-nav a:hover {
   color: rgba(61, 65, 73, 0.7);
 }
-
-.scrolled h5 {
-  opacity: 0;
-}
 /* hamburgermenu changing color when scrolling END */
 
 
@@ -391,22 +384,6 @@ h1 {
         padding-right: 20px;
         padding-left: 20px;
       }
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-  text-align: left;
-  padding-left: 40px;
-  padding-top: 43%;
-  margin: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all 0.2s ease;
 }
 
 p {
@@ -449,38 +426,6 @@ p {
         line-height: 23px;
         text-align: left;
         float: left;
-      }
-}
-
-h5 {
-  color: rgb(255, 255, 255);
-  font-family: 'Ubuntu';
-  font-weight: 300;
-  line-height: 42px;
-  font-size: 18px;
-}
-
-@media only screen and (max-width:375px) {
-      h5 {
-        font-size: 0;
-      }
-}
-
-@media only screen and (min-width:376px) and (max-width:414px) {
-      h5 {
-        font-size: 0;
-      }
-}
-
-@media only screen and (max-width:375px) {
-      .back-button h5 {
-        font-size: 18px;
-      }
-}
-
-@media only screen and (min-width:376px) and (max-width:414px) {
-      .back-button h5 {
-        font-size: 18px;
       }
 }
 /* headlines, paragraphen END*/
@@ -646,182 +591,3 @@ h5 {
 
 }
 /* work grid headlines END*/
-
-
-/* work grid zoom hover */
-.headline img {
-  max-width: 100%;
-  transition: all 0.6s ease;
-}
-
-
-.flex-grid-item:hover img {
-/* translate:scale(1.1) skalieren bei hover  */
-}
-
-.pfeilheader {
-  position: absolute;
-  margin-left: 40px;
-  margin-top: 61%;
-  opacity: 0;
-  transition: all 0.2s ease;
-}
-
-@media only screen and (max-width:1367px) {
-      .pfeilheader {
-        margin-left: 40px;
-        margin-top: 61%;
-      }
-}
-
-.headline:hover .pfeilheader {
-  opacity: 1;
-  transition: all 0.5s ease;
-  margin-top: 51%;
-}
-
-@media only screen and (max-width:1367px) {
-      .headline:hover .pfeilheader {
-        margin-top: 51%;
-      }
-}
-
-.headline p {
-  font-family: 'Montserrat';
-  font-size: 18px;
-  font-weight: 300;
-  text-align: left;
-  padding-left: 40px;
-  padding-top: 43%;
-  margin: 0;
-  position: absolute;
-  opacity: 0;
-  transition: all 0.2s ease;
-}
-
-@media only screen and (max-width:1367px) {
-      .headline p {
-        font-size: 18px;
-        font-weight: 300;
-        padding-left: 40px;
-        padding-top: 43%;
-      }
-}
-
-.headline:hover p {
-  color: rgba(61, 65, 73, 1);
-  transition: all 0.7s ease;
-  opacity: 1;
-}
-
-@media only screen and (max-width:1367px) {
-      .headline h2 {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 25px;
-        padding-left: 40px;
-        padding-top: 43%;
-      }
-}
-
-.headline:hover h2 {
-  opacity: 1;
-  transition: all 0.2s ease;
-  color: rgba(61, 65, 73, 1);
-  background-color: rgba(255, 255, 255, 0.8);
-  padding-top: 36%;
-  opacity: 1;
-}
-
-@media only screen and (max-width:1366px) {
-      .headline:hover h2 {
-        padding-top: 36%;
-      }
-}
-
-@media only screen and (max-width:376px) {
-      .headline:hover h2 {
-        padding-top: 35.8%;
-      }
-}
-/* work grid zoom hover END*/
-
-
-/* contact */
-.Index-page-contact {
-  position: relative;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  display: block;
-  z-index: 2;
-}
-
-.Index-page-content-contact {
-  box-sizing: border-box;
-  padding: 150px 100px 120px 100px;
-}
-
-
-/* icon hover */
-.instagram {
-  position: relative;
-  margin-left: calc(50% - 20px);
-  margin-top: 50px;
-}
-
-@media only screen and (max-width:1366px) {
-      .instagram {
-        margin-top: 50px;
-      }
-}
-
-@media only screen and (max-width:375px) {
-      .instagram {
-        margin-top: 200px;
-      }
-}
-
-@media only screen and (min-width:376px) and (max-width:414px) {
-      .instagram {
-        margin-top: 200px;
-      }
-}
-
-.instagram:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-@media only screen and (max-width:375px) {
-      .instagram:hover {
-        opacity: 1;
-      }
-}
-/*Icon Hover END*/
-
-
-.sendmail {
-  position: absolute;
-  width: 250px;
-  height: auto;
-  background: transparent;
-  margin-top: 50px;
-  padding: 10px;
-  left: 50%;
-  margin-left: -125px;
-  border-color: rgba(61, 65, 73, 1);
-  border-width: 2.4px;
-  border-style: solid;
-}
-
-.sendmail p {
-  margin: 0;
-}
-
-@media only screen and (max-width:375px) {
-      .sendmail {
-        width: 200px;
-        text-align: center;
-        height: 30px;
-      }
-}
