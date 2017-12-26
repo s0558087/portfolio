@@ -6,17 +6,16 @@ body {
 }
 
 
-/* home */
-/* intro */
+/* start - project bild */
 .selektor {
-  background-image: url(../images/forest2.jpg);
+  background-image: url(../images/a_app.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center top;
-  height: 100vh;
+  height: 19vh;
   width: 100%;
   background-repeat: no-repeat;
 }
