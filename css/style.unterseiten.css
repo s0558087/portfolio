@@ -629,12 +629,13 @@ p {
 	justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width:375px) {
       .flex-grid-item-1 {
         flex-basis: 300px;
+        padding: 10px 0;
       }
 }
 
