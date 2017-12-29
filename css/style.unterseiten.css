@@ -607,6 +607,7 @@ p {
   margin-bottom: 0;
   z-index: 3;
   background-color: white;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width:375px) {
@@ -651,12 +652,13 @@ p {
 	justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width:375px) {
       .flex-grid-item-2 {
         flex-basis: 300px;
+        padding: 10px 0;
       }
 }
 
@@ -672,12 +674,13 @@ p {
 	justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width:375px) {
       .flex-grid-item-3 {
         flex-basis: 300px;
+        padding: 10px 0;
       }
 }
 
