@@ -5,93 +5,6 @@ body {
   margin: 0;
 }
 
-
-/* start - project bild */
-.selektor {
-  background-image: url(../images/a_app.jpg);
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center top;
-  height: 19vh;
-  width: 100%;
-  background-repeat: no-repeat;
-}
-
-/* Cross browser solution for fixed full background image (incl. iOS) */
-body {
-  position: relative;
-}
-
-@media only screen and (max-width:375px) {
-      .selektor {
-        height: 19vh;
-        background-attachment: scroll;
-      }
-}
-
-@media only screen and (max-width:375px) {
-      .selektorunterseiten {
-        background-attachment: scroll;
-      }
-}
-/* start - project bild END*/
-
-/* REMOVE */
-.pfeil {
-  position: fixed;
-  left: calc(50% - 20px);
-  top: 80vh;
-  z-index: 1;
-}
-
-@media only screen and (max-width:1367px) {
-      .pfeil {
-        top: 80vh;
-      }
-}
-
-@media only screen and (max-width:375px) {
-      .pfeil {
-        top: 75vh;
-        left: calc(50% - 14px);
-        height: 13px;
-        width: 28px;
-        position: relative;
-      }
-}
-
-@media only screen and (min-width:376px) and (max-width:414px) {
-      .pfeil {
-        top: 75vh;
-        left: calc(50% - 14px);
-        height: 13px;
-        width: 28px;
-        position: relative;
-        position: fixed;
-      }
-}
-
-.pfeil:hover {
-  opacity: 0.6;
-}
-
-@media only screen and (max-width:375px) {
-      .pfeil:hover {
-        opacity: 1;
-      }
-}
-
-@media only screen and (min-width:376px) and (max-width:414px) {
-      .pfeil:hover {
-        opacity: 1;
-      }
-}
-/* REMOVE END*/
-
-
 /* hamburgermenu */
 .header {
   box-sizing: border-box;
@@ -208,7 +121,7 @@ body {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 4px;
-  background-color: white;
+  background-color: rgba(61, 65, 73, 1);
   margin: 6px 0;
   transition: 0.4s;
   border-radius: 20px;
@@ -313,7 +226,7 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: rgba(61, 65, 73, 1);
 }
 
 a:link {
@@ -321,7 +234,7 @@ a:link {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgbargba(61, 65, 73, 0.7);
 }
 /* hamburgermenu open END*/
 
