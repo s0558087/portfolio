@@ -412,19 +412,18 @@ h2 {
 p {
   color: rgba(61, 65, 73, 1);
   font-family: 'Montserrat';
-  font-size: 16px;
+  font-size: 17px;
   line-height: 21px;
   font-weight: 500;
   text-align: center;
-  padding-right: 100px;
-  padding-left: 100px;
   margin-bottom: 24px;
 }
 
 @media only screen and (max-width:1367px) {
       p {
-        font-size: 16px;
+        font-size: 17px;
         line-height: 21px;
+        font-weight: 500;
         padding: 0;
         margin-bottom: 15px;
       }
@@ -436,6 +435,7 @@ p {
         padding-left: 20px;
         font-size: 16px;
         line-height: 20px;
+        font-weight: 500;
         text-align: left;
         float: left;
       }
@@ -447,6 +447,7 @@ p {
         padding-left: 20px;
         font-size: 18px;
         line-height: 23px;
+        font-weight: 500;
         text-align: left;
         float: left;
       }
@@ -498,12 +499,12 @@ h5 {
 
 .Index-page-content {
   box-sizing: border-box;
-  padding: 120px 320px;
+  padding: 120px 290px;
 }
 
 @media only screen and (max-width:1367px) {
       .Index-page-content {
-        padding: 120px 320px;
+        padding: 120px 290px;
       }
 }
 
