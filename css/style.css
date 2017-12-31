@@ -810,23 +810,57 @@ h5 {
   padding: 150px 100px 120px 100px;
 }
 
+.contact {
+  margin-top: 70px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width:376px) {
+      .contact {
+        margin-top: 190px;
+      }
+}
+/* contact END */
+
+
+/*Mail Hover*/
+.contact a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(61, 65, 73, 1);
+}
+
+.contact a:hover {
+  color: rgba(61, 65, 73, 0.6);
+}
+/*Mail Hover END*/
+
 
 /* icon hover */
 .instagram {
   position: relative;
-  margin-left: calc(50% - 20px);
+  margin-left: calc(50% - 17px);
   margin-top: 50px;
+  width: 34px;
+  height: auto;
 }
 
 @media only screen and (max-width:1366px) {
       .instagram {
-        margin-top: 50px;
+        margin-top: 100px;
+        width: 34px;
+        height: auto;
       }
 }
 
 @media only screen and (max-width:375px) {
       .instagram {
-        margin-top: 200px;
+        margin-top: 430px;
+        width: 15px;
+        height: auto;
       }
 }
 
@@ -848,31 +882,14 @@ h5 {
 }
 /*Icon Hover END*/
 
-
-/*Mail Hover*/
-.sendmail {
-  position: absolute;
-  width: 250px;
-  height: auto;
-  background: transparent;
-  margin-top: 50px;
-  padding: 10px;
-  left: 50%;
-  margin-left: -125px;
-  border-color: rgba(61, 65, 73, 1);
-  border-width: 2.4px;
-  border-style: solid;
-}
-
-.sendmail p {
-  margin: 0;
+.bottom {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(61, 65, 73, 1);
 }
 
 @media only screen and (max-width:375px) {
-      .sendmail {
-        width: 200px;
-        text-align: center;
-        height: 30px;
+      .bottom {
+        height: 100px;
       }
 }
-/*Mail Hover END*/
