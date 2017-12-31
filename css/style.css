@@ -98,11 +98,12 @@ body {
   width: 100%;
   position: fixed;
   z-index: 10;
+  top: 0;
 }
 
 @media only screen and (max-width:375px) {
       .header {
-        padding: 5px 5px 5px 5px;
+        padding: 30px 5px 5px 5px;
       }
 }
 
@@ -119,6 +120,15 @@ body {
 .navbar {
   float: right;
   padding: 0;
+}
+
+@media only screen and (max-width:375px) {
+      .header.change {
+        background-color: white;
+        height: 100vh;
+        top: 0;
+        transition: 0.5s ease;
+      }
 }
 
 .main-nav {
@@ -250,21 +260,23 @@ body {
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-7px, 7px) ;
-  transform: rotate(-45deg) translate(-7px, 7px) ;
+  -webkit-transform: rotate(-45deg) translate(-7px, 7px);
+  transform: rotate(-45deg) translate(-7px, 7px);
 }
 
 @media only screen and (max-width:375px) {
       .change .bar1 {
-        -webkit-transform: rotate(45deg) translate(-7px, 7px) ;
-        transform: rotate(-45deg) translate(-7px, 5px) ;
+        -webkit-transform: rotate(45deg) translate(-7px, 7px);
+        transform: rotate(-45deg) translate(-7px, 5px);
+        background-color: rgba(61, 65, 73, 1);
       }
 }
 
 @media only screen and (max-width:414px) {
       .change .bar1 {
-        -webkit-transform: rotate(45deg) translate(-7px, 7px) ;
-        transform: rotate(-45deg) translate(-7px, 5px) ;
+        -webkit-transform: rotate(45deg) translate(-7px, 7px);
+        transform: rotate(-45deg) translate(-7px, 5px);
+        background-color: rgba(61, 65, 73, 1);
       }
 }
 
@@ -279,12 +291,14 @@ body {
 @media only screen and (max-width:375px) {
       .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-5px, -3px) ;
+        background-color: rgba(61, 65, 73, 1);
       }
 }
 
 @media only screen and (max-width:414px) {
       .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-5px, -3px) ;
+        -webkit-transform: rotate(45deg) translate(-5px, -3px);
+        background-color: rgba(61, 65, 73, 1);
       }
 }
 /* hamburgermenu ENDE */
@@ -308,6 +322,8 @@ li {
   visibility: hidden;
 }
 
+
+
 .change li {
   visibility: visible;
   transition: 0.8s ease;
@@ -317,6 +333,12 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: white;
+}
+
+@media only screen and (max-width:375px) {
+      a {
+        color: rgba(61, 65, 73, 1);
+      }
 }
 
 a:link {
