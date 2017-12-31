@@ -73,13 +73,13 @@ body {
 
 @media only screen and (max-width:375px) {
       .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
 @media only screen and (max-width:414px) {
       .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
@@ -92,13 +92,13 @@ body {
 
 @media only screen and (max-width:375px) {
       .change .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
 @media only screen and (max-width:414px) {
       .change .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
@@ -216,6 +216,12 @@ li {
   font-size: 18px;
   margin: 0 30px 0 0;
   visibility: hidden;
+}
+
+@media only screen and (max-width:375px) {
+      li {
+        margin-right: 20px;
+      }
 }
 
 .change li {
@@ -411,61 +417,6 @@ p {
 /* section hi,there. END*/
 
 
-/* work */
-/* work grid responsive*/
-.flex-grid {
-	display: flex;
-	flex-wrap: wrap;
-  margin-left: 20%;
-  margin-right: 20%;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 3;
-  background-color: white;
-}
-
-@media only screen and (max-width:1367px) {
-      .flex-grid {
-        margin-left: 10%;
-        margin-right: 10%;
-      }
-}
-
-@media only screen and (max-width:375px) {
-      .flex-grid {
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 20px;
-      }
-}
-
-.flex-grid-item {
-	width: 100%;
-  height: 100%;
-	flex-grow: 1;
-	flex-shrink: 0;
-	flex-basis: 33.3333%;
-	flex-basis: 250px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media only screen and (max-width:1367px) {
-      .flex-grid-item {
-        flex-basis: 300px;
-      }
-}
-
-.blank {
-	height: 0;
-}
-/* work grid responsive END*/
-
-
 /* work grid headlines */
 .headline-1 {
   padding: 0;
@@ -496,6 +447,7 @@ p {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 20px;
+        margin-bottom: 50px;
       }
 }
 
@@ -565,3 +517,45 @@ p {
       }
 }
 /* work grid variations END*/
+
+
+/* back to projetcs*/
+.backtoprojects p {
+  text-align: center;
+  float: none;
+  color: rgba(61, 65, 73, 1);
+  display: inline;
+  padding: 0;
+}
+
+.backtoprojects p:hover {
+  color: rgba(61, 65, 73, 0.6);
+}
+
+.backtoprojects {
+  margin-bottom: 100px;
+  margin-left: 45%;
+}
+
+@media only screen and (max-width:375px) {
+      .backtoprojects {
+        margin-bottom: 50px;
+        margin-left: 33%;
+      }
+}
+/* back to projetcs END*/
+
+
+/*Bottom*/
+.bottom {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(61, 65, 73, 1);
+}
+
+@media only screen and (max-width:375px) {
+      .bottom {
+        height: 100px;
+      }
+}
+/*Bottom END*/

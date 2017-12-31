@@ -122,15 +122,6 @@ body {
   padding: 0;
 }
 
-@media only screen and (max-width:375px) {
-      .header.change {
-        background-color: white;
-        height: 100vh;
-        top: 0;
-        transition: 0.5s ease;
-      }
-}
-
 .main-nav {
   margin-right: 50px;
   position: relative;
@@ -173,13 +164,13 @@ body {
 
 @media only screen and (max-width:375px) {
       .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
 @media only screen and (max-width:414px) {
       .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
@@ -192,13 +183,13 @@ body {
 
 @media only screen and (max-width:375px) {
       .change .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
 @media only screen and (max-width:414px) {
       .change .nav {
-        margin-left: 320px;
+        margin-left: 280px;
       }
 }
 
@@ -268,7 +259,6 @@ body {
       .change .bar1 {
         -webkit-transform: rotate(45deg) translate(-7px, 7px);
         transform: rotate(-45deg) translate(-7px, 5px);
-        background-color: rgba(61, 65, 73, 1);
       }
 }
 
@@ -276,7 +266,6 @@ body {
       .change .bar1 {
         -webkit-transform: rotate(45deg) translate(-7px, 7px);
         transform: rotate(-45deg) translate(-7px, 5px);
-        background-color: rgba(61, 65, 73, 1);
       }
 }
 
@@ -291,14 +280,12 @@ body {
 @media only screen and (max-width:375px) {
       .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-5px, -3px) ;
-        background-color: rgba(61, 65, 73, 1);
       }
 }
 
 @media only screen and (max-width:414px) {
       .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-5px, -3px);
-        background-color: rgba(61, 65, 73, 1);
       }
 }
 /* hamburgermenu ENDE */
@@ -322,7 +309,11 @@ li {
   visibility: hidden;
 }
 
-
+@media only screen and (max-width:375px) {
+      li {
+        margin-right: 20px;
+      }
+}
 
 .change li {
   visibility: visible;
@@ -333,12 +324,6 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: white;
-}
-
-@media only screen and (max-width:375px) {
-      a {
-        color: rgba(61, 65, 73, 1);
-      }
 }
 
 a:link {
@@ -374,6 +359,7 @@ a:hover {
 
 .scrolled h5 {
   opacity: 0;
+  visibility: hidden;
 }
 /* hamburgermenu changing color when scrolling END */
 
@@ -882,8 +868,10 @@ h5 {
 }
 /*Icon Hover END*/
 
+
+/*Bottom*/
 .bottom {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: rgba(61, 65, 73, 1);
 }
@@ -893,3 +881,4 @@ h5 {
         height: 100px;
       }
 }
+/*Bottom END*/
